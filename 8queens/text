@@ -1,0 +1,21 @@
+/*
+Name: Priyanshu Anand                                                           Deadline 03.02.20. 
+Roll no. 1801055
+
+.Artificial Intelligence Assignment -01
+
+Sub: Solving 8-queens problem using uniform cost search.
+     
+    • States: Any arrangement of 0-8 queens on the board or Any arrangement of n queens (0 ≤ n ≤ 8) one per column in the leftmost n columns such that no queen attacks another.  
+                                          
+    • Initial State: No queens on the board.
+
+    • Successor Function: Add a queen to an empty field on the board or Add a queen to any square in the leftmost empty column such that it is not attacked by any other queen.
+
+    • Search space: chess board with n or fewer queens, each on a different square.
+
+    • Goal test: A state is the goal if it has exactly n queens and no queen is attacking any other queen.
+
+    • Path cost: 0
+
+*/
